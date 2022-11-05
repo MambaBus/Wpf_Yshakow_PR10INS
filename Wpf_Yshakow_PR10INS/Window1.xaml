@@ -5,8 +5,68 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR10INS"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="450" Width="300">
     <Grid>
-        
+        <ListBox Margin="10,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="264">
+            <ListBoxItem Background="LightCoral" FontFamily="Vernada" FontSize="12" FontWeight="Bold" Foreground="#FFFB192F">
+                <CheckBox x:Name="CoffieCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Rejting-luchshego-kofe.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Coffie" />
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+            <ListBoxItem Background="LightGray"  FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="TeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="post_5cc16e65ddc17.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Tea"/>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+            <ListBoxItem Background="LightBlue" Foreground="#FFFF4600" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="OrangeJuiceCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Freshly-Squeezed-Orange-Juice.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Orange Juice"/>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+            <ListBoxItem Background="LightGreen" Foreground="#FFC9907C" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="MilkCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="ad94dca432c8f5d06da27dc59f81ff6141f5c3e5.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Milk"/>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+            <ListBoxItem Background="LightBlue" Foreground="#FF2B95EE" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="IcedTeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="iced-tea.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Iced Tea"/>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+
+            <ListBoxItem Background="LightSlateGray" Foreground="#FFFF6800" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="MangoShakeCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Moringa-Mango-Smoothie.jpg" Width="30" Height="30"/>
+                        <TextBlock Text="Mango Shake"/>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,280,0,0" Name="textbox1" VerticalAlignment="Top" Width="212"/>
+        <Button  Margin="10,310,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
+        <Button  Margin="83,310,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Width="79">Delete Item</Button>
+        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" Click="Sort_Click" VerticalAlignment="Top" Margin="167,310,0,0" Width="55"/>
+       
     </Grid>
 </Window>

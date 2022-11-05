@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR10INS"
         mc:Ignorable="d"
-        Title="Window3" Height="450" Width="800">
+        Title="Вариант 12" Height="450" Width="300">
     <Grid>
-        
+        <ListBox x:Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="200" Margin="10,0,0,0">
+            <ListBoxItem Content="Ржаной хлеб" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem Content="Калач" Selected="ListBoxItem_Selected_1"/>
+            <ListBoxItem Content="Чиабатта" Selected="ListBoxItem_Selected_2"/>
+            <ListBoxItem Content="Крендель" Selected="ListBoxItem_Selected_3"/>
+            <ListBoxItem Content="Лаваш" Selected="ListBoxItem_Selected_4"/>
+            <ListBoxItem Content="Бриошь" Selected="ListBoxItem_Selected_5"/>
+            <ListBoxItem Content="Хала" Selected="ListBoxItem_Selected_6"/>
+        </ListBox>
+
+        <TextBox Height="23" HorizontalAlignment="Left" Name="textbox1" VerticalAlignment="Top" Width="214" Margin="8,205,0,0"/>
+
+        <Button  Margin="8,233,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
+        <Button  Margin="81,233,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Width="79" Click="DeleteButton_Click">Delete Item</Button>
+        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" VerticalAlignment="Top" Margin="167,233,0,0" Width="55" Click="Sort_Click"/>
+
+        <Image x:Name="image1" Margin="10,260,0,25" Height="150" Width="211" HorizontalAlignment="Left"/>
     </Grid>
 </Window>

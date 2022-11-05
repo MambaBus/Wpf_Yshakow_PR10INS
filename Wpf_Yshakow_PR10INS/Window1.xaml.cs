@@ -23,5 +23,20 @@ namespace Wpf_Yshakow_PR10INS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.Add(textbox1.Text);
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.Remove(listBox1.SelectedItem);
+        }
+
+        private void Sort_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Text", System.ComponentModel.ListSortDirection.Ascending));
+        }
     }
 }

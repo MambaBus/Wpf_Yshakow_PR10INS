@@ -115,5 +115,44 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rejting-luchshego-kofe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="post_5cc16e65ddc17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Freshly-Squeezed-Orange-Juice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ad94dca432c8f5d06da27dc59f81ff6141f5c3e5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="iced-tea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Moringa-Mango-Smoothie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\5-francuzskie-bulochki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\2957.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\black_bread.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\IMG_1988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\pretzel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\22.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
